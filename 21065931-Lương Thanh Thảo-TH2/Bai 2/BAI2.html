@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đóng góp ý kiến về sản phẩm</title>
+    <link rel="stylesheet" href="BAI2.css">
+</head>
+<body>
+<div class="tieude">
+    <h1>ĐÓNG GÓP Ý KIẾN VỀ SẢN PHẨM</h1>
+    <p> Góp ý của bạn sẽ được chúng tôi em xét, vui lòng nhập tiếng việt có dấu </p>
+    <p> Các ý kiến đóng góp nên viết chi tiết, rõ ràng, kềm minh chứng xác thực về thời gian <i> (nếu có)</i> </p>
+
+    <form action="#">
+        <div class="form">
+            
+            <div class="box1">
+                <input type="text" placeholder="Họ và tên" class="input" id="name" name="name" value="" required>
+            </div>
+            <div class="box2">
+                <input type="text" placeholder="Mã thẻ" class="input" id="code" name="code" value="" required>
+            </div>
+            <div class="box3">
+                <input type="tel" placeholder="Số điện thoại" class="input" id="phone" name="phone" value="" required>
+            </div>
+            <div class="box4">
+                <input type="email" placeholder="Email" class="input" id="email" name="email" value="" required>
+            </div>
+            <div class="box5">
+                <select class="input" placeholder="Loại khách hàng" id="service" name="service" required>
+                    <option value="">Chọn loại sản phẩm</option>
+                    <option value="REGULAR">REGULAR</option>
+                    <option value="VIP">VIP</option>
+                    <option value="New">New</option>
+                </select>
+            </div>
+            <div class="box6">
+                <input type="text" placeholder="Mã hoá đơn" class="input" id="model" name="model" value="" required>
+            </div>
+        </div>
+            <div class="input-group">
+                <textarea id="input-description" placeholder="Nhập chi tiết mô tả" required></textarea>
+            </div>
+            <div class="nutgui">
+                <button type="submit"onclick="BAI2()" class="button">GỬI GÓP Ý  <img width="20px" height="20px" src="icon-mes.png"> </button>
+            </div>
+    </form>
+</div>
+<script src="BAI2.js"></script>
+</body>
+</html> 

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bai5</title>
+    <link rel="stylesheet" href="bai5.css">
+</head>
+<body>
+    
+    <div class="col-lg-6">
+        <h1> <img width="30px" src="iconlogin.png" alt="login"> Login</h1>
+        <div class="login-form-wrapper">
+            <form action="#" class="sn-form sn-form-boxed">
+                <div class="sn-form-inner">
+                    <div class="single-input">
+                        <label for="login-form-email">Username or email address *</label><br>
+                        <input type="text" name="login-form-email" id="login-form-email">
+                    </div>
+                    <div class="single-input">
+                        <label for="login-form-password">Password *</label><br>
+                        <input type="password" onclick="bai5()" name="login-form-password" id="login-form-password" >
+                        <i class="password-icon fa fa-eye" id="password-toggle"></i>
+                    </div>
+                    <div class="single-input">
+                        <button type="submit" class="mr-3">
+                            <span>Login</span>
+                        </button>
+                        <div class="checkbox-input">
+                            <input type="checkbox" name="login-form-remember" id="login-form-remember">
+                            <label for="login-form-remember">Remember me</label>
+                        </div>
+                    </div>
+                    <div class="single-input">
+                        <a href="#">Lost your password?</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="bai5.js"></script>
+</body>
+</html>

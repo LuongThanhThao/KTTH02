@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính toán Chỉ số BMI</title>
+    <link rel="stylesheet" href="BAI4.css">
+    <script src="BAI4.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>TÍNH CHỈ SỐ BMI</h1>
+                <div class="input-group">
+                    <label for="cannang"> Nhập cân nặng? </label><br>
+                    <input type="number"  id="cannang" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="chieucao">Nhập chiều cao?</label><br>
+                    <input type="number"  id="chieucao" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="tuoi">Chọn loại tuổi:</label><br>
+                    <select id="tuoi" name="tuoi" class="form-control" required>
+                        <option value="trung nien">Trung niên</option>
+                        <option value="Trung niên, già lớn tuổi">Trung niên, già lớn tuổi</option>
+                        <option value="già,lớn tuổi">già lớn tuổi</option>
+                    </select>
+                </div><br>
+            <button type="submit" onclick="TinhBMI()" id="tinhbmi" class="btn btn-primary">TÍNH BMI</button>
+            <div>  <H2> KẾT QUẢ</H2> </div>
+            <div class="result" id="result"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+
+body{
+    font-family:Arial, sans-serif;
+}
+h2{
+    font-weight: normal;
+}
+.liênlạc h2{
+    color: blueviolet;
+}
+.container {
+    display: flex; /* Use flexbox for layout */
+  }
+  
+  .thongtin {
+    width: 20%; /* Set width to 50% for each section */
+    padding: 10px; /* Add some padding */
+    margin-right: 5px;
+    color: grey; /* Thêm 5px khoảng cách bên phải */
+  }
+  .thongtin h2{
+    color: black;
+  }
+  h1{
+    color: blue;
+  }
+.hr-red{
+    border-color: crimson;
+}
+.input-group{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input {
+    width: 600px;
+    height: 30px;
+    border-color:grey;
+}
+textarea{
+    width: 600px;
+    height: 150px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

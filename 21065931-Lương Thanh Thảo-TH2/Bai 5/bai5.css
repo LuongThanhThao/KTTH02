@@ -1,0 +1,24 @@
+body{
+  background-image:linear-gradient(to right, rgb(89, 205, 159), rgb(236, 172, 239));;
+}
+.col-lg-6{
+      width: 300px;
+      padding: 30px;
+      margin: auto;
+      background:linear-gradient(to right, rgb(228, 65, 225), rgb(20, 55, 28));;
+      box-shadow: 0px 3px 3px 3px rgb(170, 169, 169);
+      border-radius: 20px;
+      margin-top: 33px;
+      text-align: center;
+      color: aliceblue;
+}
+.single-input input{
+    margin-top: 10px;
+    border: 5px;
+    color: #fff;
+      background-color: grey;
+    width: 150px;
+    padding: 10px;
+    cursor: pointer;
+      font-size: 15px;
+}
